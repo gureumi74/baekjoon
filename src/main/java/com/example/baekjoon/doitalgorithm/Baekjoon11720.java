@@ -1,12 +1,11 @@
 package com.example.baekjoon.doitalgorithm;
 
-import java.io.*;
 import java.util.Scanner;
 
 
 public class Baekjoon11720 {
     // 숫자의 합
-    public static void main(String[] args) throws IOException {
+    public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
         char[] numbers = sc.next().toCharArray();
@@ -17,7 +16,5 @@ public class Baekjoon11720 {
         }
 
         System.out.println(sum);
-
     }
-
 }
